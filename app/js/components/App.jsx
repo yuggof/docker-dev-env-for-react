@@ -4,7 +4,7 @@ import AddCityForm from './AddCityForm.jsx'
 import Cities from './Cities.jsx'
 
 const App = ({ cities }) => (
-  <div>
+  <div className="container">
     <AddCityForm/>
     <Cities/>
   </div>

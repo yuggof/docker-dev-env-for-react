@@ -6,7 +6,7 @@ const Cities = ({ cities }) => {
   return (
     <div className="row">
       {cities.map((c, i) =>
-        <div key={i} className="col-xs-4">
+        <div key={i} className="col-xs-6">
           <City city={c}/>
         </div>
       )}

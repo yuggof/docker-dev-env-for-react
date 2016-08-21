@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 const AddCityForm = ({ dispatch }) => {
-  let nameInput, numberOfCitizensInput;
+  let nameInput, numberOfCitizensInput
 
   const addCity = () => {
     if(nameInput.value && numberOfCitizensInput.value) {
