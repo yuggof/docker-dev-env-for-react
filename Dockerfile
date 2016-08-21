@@ -10,4 +10,4 @@ EXPOSE 8080
 
 USER react
 
-CMD ["./node_modules/.bin/webpack-dev-server", "--host", "0.0.0.0", "--content-base", "app", "--inline"]
+CMD ["./node_modules/.bin/webpack-dev-server", "--host", "0.0.0.0", "--content-base", "app", "--inline", "--hot"]
