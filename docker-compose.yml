@@ -1,0 +1,9 @@
+version: '2'
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - .:/home/react/app
+    ports:
+      - 8080:8080
